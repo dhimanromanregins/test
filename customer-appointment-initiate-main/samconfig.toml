@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "customer-appointment-initiate"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1srdot9mnjxmw"
+s3_prefix = "customer-appointment-initiate"
+region = "us-east-2"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
+profile = "karun"
